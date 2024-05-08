@@ -12,6 +12,16 @@ description: Status codes and when to use them
 | 302, 307 | Temporary redirect                                           |
 | 303      | Redirecting to a success page as a result of a POST request. |
 
+#### FAQ
+
+<AccordionGroup>
+
+<Accordion title="When should I use a temporary vs. permanent redirect?">
+  A 301 is used when a page has permanently changed location, and a 302 should
+  be used if you intend to move the page back under the original URL in the
+  future. In general, you should expect to use 301 redirects on your website.
+</Accordion>
+
 <Accordion title="Why does Next.js use 307 and 308?">
   Traditionally a 302 was used for a temporary redirect, and a 301 for a
   permanent redirect, but many browsers changed the request method of the
@@ -23,6 +33,7 @@ description: Status codes and when to use them
   request method used.
   ([Source](https://nextjs.org/docs/app/api-reference/next-config-js/redirects))
 </Accordion>
+</AccordionGroup>
 
 #### Related Resources
 
