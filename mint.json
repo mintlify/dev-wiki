@@ -52,10 +52,6 @@
     {
       "group": "Welcome",
       "pages": ["introduction"]
-    },
-    {
-      "group": "REST API Best Practices",
-      "pages": ["rest-apis/status-codes"]
     }
   ],
   "footerSocials": {
